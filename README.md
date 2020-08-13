@@ -48,6 +48,9 @@ micro service architecture pattern using Spring Boot and Spring Cloud
 - Rapidly deploy changes to Azure Spring Cloud without any disruption - blue-green deployments
 
 
+![](./media/piggymetrics-architecure.png)
+
+
 ## What you will need
 
 In order to deploy a Java Web app to cloud, you need 
@@ -95,7 +98,7 @@ mvn clean package -DskipTests -Denv=development
 You can use multiple console terminals and start micro service apps - see 
 [how to run Piggymetrics locally](./docs/run-piggymetrics-locally.md) ...
 
-### Create MongoDB and RabbitMQ
+## Create MongoDB and RabbitMQ
 
 You can create MongoDB and RabbitMQ on Azure by following steps outlined [here](./docs/create-mongodb-and-rabbitmq.md)
 and capture MongoDB and RabbitMQ coordinates and credentials in 
